@@ -7,7 +7,7 @@ export default function TaskList({ tasks, deleteTask }) {
             key={data.id}
             className="flex justify-around  border-solid border-gray-800  rounded-md bg-slate-500 w-[400px] mt-3 "
           >
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <h2 className="w-[80%]">
               {data.name} - {data.dueDate}
             </h2>
